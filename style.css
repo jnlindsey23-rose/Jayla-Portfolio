@@ -821,9 +821,10 @@ input[type="reset"] {
 }
 .about-photo {
     float: left;
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
+    width: 325px;
+    height: 325px;
+    object-fit: cover;
+    object-position: center 30%;
     border-radius: 50%;
     margin: 0 30px 20px 0;
 }
