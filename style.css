@@ -819,3 +819,11 @@ input[type="reset"] {
         line-height: 2em;
     }
 }
+.about-photo {
+    float: left;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 30px 20px 0;
+}
