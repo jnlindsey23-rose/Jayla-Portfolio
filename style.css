@@ -824,7 +824,7 @@ input[type="reset"] {
     width: 325px;
     height: 325px;
     object-fit: cover;
-    object-position: center 30%;
+    object-position: center 20%;
     border-radius: 50%;
     margin: 0 30px 20px 0;
 }
