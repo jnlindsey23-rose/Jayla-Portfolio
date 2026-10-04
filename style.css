@@ -717,6 +717,9 @@ input[type="reset"] {
     .copyright {
         flex-direction: column;
     }
+   
+   }  /* closes the max-width: 480px media query */
+
 /* ========================================
    ABOUT ME
    ======================================== */
