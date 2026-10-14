@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Lexile Course Evaluation | Jayla Lindsey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Lexile Course Evaluation</h1>
+        <p>Education Research and Product Evaluation</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Project Artifact</h2>
+
+            <p><strong>Image Coming Soon</strong></p>
+
+            <p> The image above shows the one-page report I created for MetaMetrics after analyzing data collected from education stakeholders who completed the Lexile Canvas course. The report includes several sections, including visual and numerical metrics, course benefits, participant quotes, and key takeaways from the learning experience. I also developed a separate internal document outlining data-informed recommendations for improving the course. 
+            </p>
+
+            <p> The purpose of this project was to analyze data from the Lexile Canvas course to demonstrate its value to education stakeholders and highlight the importance of understanding the Lexile Framework that serves as the foundation of MetaMetrics’ work. Through this project, I developed an external-facing report that combined quantitative and qualitative findings to communicate the course’s benefits to prospective participants and other educators. I also created an internal document with data-informed recommendations to help MetaMetrics identify opportunities for improvement and strengthen the course for future learners. This experience allowed me to apply data analysis, research, and communication skills to support both educational product marketing and continuous product improvement.
+            </p>
+        </section>
+
+        <p>
+            <a href="../index.html">← Back to Portfolio</a>
+        </p>
+    </main>
+
+</body>
+</html>
