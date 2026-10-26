@@ -796,3 +796,34 @@ input[type="reset"] {
         padding: 0 1.5em;
     }
 }
+
+/* Portfolio project image styling */
+.project-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.project-image img {
+    display: block;
+    width: calc(50% - 10px);
+    max-width: 420px;
+    max-height: 350px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 736px) {
+    .project-image img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
