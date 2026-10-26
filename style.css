@@ -769,3 +769,30 @@ input[type="reset"] {
 .about-section li {
     margin-bottom: 0.75em;
 }
+/* Improve spacing and keep text away from screen edges */
+
+/* Artifact pages */
+.project-page {
+    width: 100%;
+    max-width: 65em;
+    margin: 0 auto;
+    padding: 4em 3em 2em;
+    box-sizing: border-box;
+}
+
+/* Contact section */
+#contact > .inner {
+    padding: 0 3em;
+    box-sizing: border-box;
+}
+
+/* Smaller screens */
+@media screen and (max-width: 736px) {
+    .project-page {
+        padding: 3em 1.5em 1em;
+    }
+
+    #contact > .inner {
+        padding: 0 1.5em;
+    }
+}
