@@ -474,3 +474,65 @@
   .document-item summary { grid-template-columns: 28px 1fr 22px; gap: .6rem; }
   .resume-footer .copyright { display: block; }
 }
+
+/* ==========================================================
+   SELECTED WORK — MULTI-ARTIFACT LAYOUT IMPROVEMENTS
+   ========================================================== */
+
+/* Give each artifact category consistent separation */
+.work-section .work-feature {
+  margin-top: 3.5rem;
+}
+
+.work-section .section-heading + .work-feature {
+  margin-top: 0;
+}
+
+/* Improve spacing between document groups */
+.work-section .document-list {
+  margin-bottom: 1rem;
+}
+
+/* Make expandable PDF rows easier to identify */
+.document-item summary {
+  transition: background .2s ease, padding .2s ease;
+}
+
+.document-item summary:hover {
+  background: rgba(111, 195, 223, .08);
+  padding-left: .8rem;
+  padding-right: .8rem;
+}
+
+/* Improve PDF viewing experience */
+.document-viewer {
+  padding-top: .5rem;
+}
+
+.document-viewer iframe {
+  min-height: 520px;
+  border-radius: 3px;
+}
+
+/* Keep PDF links visually distinct */
+.document-viewer a {
+  transition: color .2s ease;
+}
+
+.document-viewer a:hover {
+  color: #242943;
+  text-decoration: underline;
+}
+
+/* Mobile PDF adjustments */
+@media screen and (max-width: 736px) {
+  .work-section .work-feature {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+  }
+
+  .document-viewer iframe {
+    height: 450px;
+    min-height: 400px;
+  }
+}
