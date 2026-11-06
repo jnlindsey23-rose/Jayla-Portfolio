@@ -1479,3 +1479,89 @@ button, input, textarea {
         font-size: 0.58rem;
     }
 }
+
+/* ==========================================================
+   ARTIFACT PAGES — FINAL TEXT CONTRAST & LAYOUT
+   ========================================================== */
+
+/* Improve text contrast on cream backgrounds */
+.project-page .project-section-heading .project-eyebrow,
+.project-page .project-details-heading .project-eyebrow,
+.project-page .project-footer .project-eyebrow {
+    color: #426b86;
+}
+
+.project-page .project-section-heading h2,
+.project-page .project-details-heading h2,
+.project-page .project-footer h2 {
+    color: #242943;
+}
+
+/* Supporting descriptions: darker gray, larger text */
+.project-page .project-section-note,
+.project-page .project-details-heading > p:last-child {
+    color: #51596b;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+/* Default: stacked heading and description
+   Used by Data Visualization and Media Design */
+.project-page .project-section-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.project-page .project-section-note {
+    max-width: 650px;
+    margin: 0;
+}
+
+/* Two-image galleries remain side by side */
+.project-page .project-image {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Single-image pages: heading and description side by side
+   Add the class "single-image-heading" to these HTML pages */
+.project-page .single-image-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 45px;
+}
+
+.project-page .single-image-heading .project-section-note {
+    justify-self: end;
+    max-width: 460px;
+    font-size: 1.1rem;
+}
+
+/* Keep hero colors unchanged */
+.project-page .project-hero .project-kicker {
+    color: #9bf1ff;
+}
+
+.project-page .project-hero h1 {
+    color: #f4f2ed;
+}
+
+.project-page .project-hero .project-intro {
+    color: #b9bfd0;
+}
+
+/* Mobile layout */
+@media (max-width: 750px) {
+    .project-page .single-image-heading {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .project-page .single-image-heading .project-section-note {
+        justify-self: start;
+        max-width: 100%;
+        font-size: 1rem;
+    }
+}
